@@ -70,6 +70,7 @@ header li {
   border: solid 1px #AAAAAA;
   */border-radius: 15px;*/
   z-index: 3;
+  overflow: hidden;
 }
 
 .content-wrapper .main-image {
