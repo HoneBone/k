@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+  background-color: #89c3eb;　/*勿忘草色*/
+}
+
+header {
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    background:linear-gradient(90deg,#008E74 0%, #008E74 50%,#D0A040 70%,#e2041b 100%); /*孔雀緑　黄朽葉　猩々緋*/
+    /*border-bottom: solid 2px;*/
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    position: absolute;
+    top: 2px;
+    padding: 0 10px;
+    width: 200px;
+    font-size: 30px;
+}
+
+.search-window {
+    position: absolute;
+    right: 16px;
+    line-height: 50px;
+}
+
+header ul {
+    position: absolute;
+    right: 250px;
+    font-size: 20px;
+    width: 60px;
+} 
+
+ul.tagBar div{
+  padding-left: 5px;
+}
+
+ul.tagBar div:hover {
+  
+}
+
+ul.tagBar span {
+  line-height: 50px;
+}
+
+header li {
+    display: none;
+    background-color: #008E74;
+    padding-left: 5px;
+    border-bottom: solid 1px #D0A040;
+}
+
+.content-wrapper {
+  background: #FCD4D5; /*一斤染*/
+  width: 500px;
+  height: 425px;
+  margin: 80px auto;
+  border: solid 1px #AAAAAA;
+  */border-radius: 15px;*/
+  z-index: 3;
+}
+
+.content-wrapper .main-image {
+  width: 100%;
+  object-fit: cover; /* この一行を追加するだけ！ */
+}
+
+.content-wrapper:hover{
+    box-shadow: 5px 5px 20px -5px;
+}
+
+.content-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-name {
+  margin-left: 15px;
+}
+
+.contentTag{
+  float: left;
+  margin: 5px 0 0 15px;
+}
+
+.contentTag a {
+  padding: 2px 15px 2px 10px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  display: inline-block;
+  border: solid 1px #AAAAAA;
+  border-radius: 8px;
+}
